@@ -1,0 +1,60 @@
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/Users/e2068916/Desktop/attiny406_moniteur_V3.X'
+rm -f  -r .ca/build/Config_1/production
+rm -f  -r .ca/dist/Config_1/production
+make[1]: Leaving directory 'C:/Users/e2068916/Desktop/attiny406_moniteur_V3.X'
+[32mCLEAN SUCCESSFUL (total time: 307ms)[0m
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'C:/Users/e2068916/Desktop/attiny406_moniteur_V3.X'
+make  -f nbproject/Makefile-Config_1.mk .ca/dist/Config_1/production/attiny406_moniteur_V3.X.production.hex
+make[2]: Entering directory 'C:/Users/e2068916/Desktop/attiny406_moniteur_V3.X'
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/examples/twi0_master_example.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/examples/twi0_master_example.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/examples/twi0_master_example.o -o .ca/build/Config_1/production/mcc_generated_files/examples/twi0_master_example.o mcc_generated_files/examples/twi0_master_example.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe" -c  -mcpu=ATtiny406  -x assembler-with-cpp -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1  -gdwarf-3 -Wa,--defsym=__MPLAB_BUILD=1   -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/src/protected_io.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/src/protected_io.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/src/protected_io.o -o .ca/build/Config_1/production/mcc_generated_files/src/protected_io.o  mcc_generated_files/src/protected_io.S 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/src/spi0.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/src/spi0.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/src/spi0.o -o .ca/build/Config_1/production/mcc_generated_files/src/spi0.o mcc_generated_files/src/spi0.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/src/pin_manager.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/src/pin_manager.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/src/pin_manager.o -o .ca/build/Config_1/production/mcc_generated_files/src/pin_manager.o mcc_generated_files/src/pin_manager.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/src/cpuint.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/src/cpuint.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/src/cpuint.o -o .ca/build/Config_1/production/mcc_generated_files/src/cpuint.o mcc_generated_files/src/cpuint.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/src/twi0_master.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/src/twi0_master.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/src/twi0_master.o -o .ca/build/Config_1/production/mcc_generated_files/src/twi0_master.o mcc_generated_files/src/twi0_master.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/mcc.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/mcc.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/mcc.o -o .ca/build/Config_1/production/mcc_generated_files/mcc.o mcc_generated_files/mcc.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/mcc_generated_files/device_config.o.d" -MT ".ca/build/Config_1/production/mcc_generated_files/device_config.o.d" -MT .ca/build/Config_1/production/mcc_generated_files/device_config.o -o .ca/build/Config_1/production/mcc_generated_files/device_config.o mcc_generated_files/device_config.c 
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -c  -x c -D__ATtiny406__   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_Config_1=Config_1    -gdwarf-3     -MD -MP -MF ".ca/build/Config_1/production/main.o.d" -MT ".ca/build/Config_1/production/main.o.d" -MT .ca/build/Config_1/production/main.o -o .ca/build/Config_1/production/main.o main.c 
+[31mmain.c:16:25: warning: character constant too long for its type
+ char texte_score[20] = {'_                  '};
+                         ^
+main.c:16:25: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+main.c: In function 'main':
+main.c:488:14: warning: pointer targets in passing argument 1 of 'printing' differ in signedness [-Wpointer-sign]
+     printing("_   NOUVELLE PARTIE", "_      LANCER !     ");
+              ^
+main.c:461:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void printing(unsigned char *texte1, unsigned char *texte2) {
+      ^
+main.c:488:37: warning: pointer targets in passing argument 2 of 'printing' differ in signedness [-Wpointer-sign]
+     printing("_   NOUVELLE PARTIE", "_      LANCER !     ");
+                                     ^
+main.c:461:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void printing(unsigned char *texte1, unsigned char *texte2) {
+      ^
+main.c:501:22: warning: pointer targets in passing argument 1 of 'printing' differ in signedness [-Wpointer-sign]
+             printing("_   NOUVELLE PARTIE", "_      LANCER !     ");
+                      ^
+main.c:461:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void printing(unsigned char *texte1, unsigned char *texte2) {
+      ^
+main.c:501:45: warning: pointer targets in passing argument 2 of 'printing' differ in signedness [-Wpointer-sign]
+             printing("_   NOUVELLE PARTIE", "_      LANCER !     ");
+                                             ^
+main.c:461:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void printing(unsigned char *texte1, unsigned char *texte2) {
+      ^
+main.c:585:28: warning: pointer targets in passing argument 2 of 'printing' differ in signedness [-Wpointer-sign]
+             printing(FinJ, texte_score);
+                            ^
+main.c:461:6: note: expected 'unsigned char *' but argument is of type 'char *'
+ void printing(unsigned char *texte1, unsigned char *texte2) {
+      ^[0m
+"C:\Program Files\Microchip\xc8\v2.40\bin\xc8-cc.exe"  -mcpu=ATtiny406 -Wl,-Map=.ca/dist/Config_1/production/attiny406_moniteur_V3.X.production.map  -DXPRJ_Config_1=Config_1  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -gdwarf-3      -Wl,--memorysummary,.ca/dist/Config_1/production/memoryfile.xml -o .ca/dist/Config_1/production/attiny406_moniteur_V3.X.production.elf  -o .ca/dist/Config_1/production/attiny406_moniteur_V3.X.production.elf  .ca/build/Config_1/production/mcc_generated_files/examples/twi0_master_example.o .ca/build/Config_1/production/mcc_generated_files/src/protected_io.o .ca/build/Config_1/production/mcc_generated_files/src/pin_manager.o .ca/build/Config_1/production/mcc_generated_files/src/spi0.o .ca/build/Config_1/production/mcc_generated_files/src/cpuint.o .ca/build/Config_1/production/mcc_generated_files/src/twi0_master.o .ca/build/Config_1/production/mcc_generated_files/mcc.o .ca/build/Config_1/production/mcc_generated_files/device_config.o .ca/build/Config_1/production/main.o      -Wl,--start-group  -Wl,-lm -Wl,--end-group 
+Info: Loading file: c:\program files\microchip\xc8\v2.40\avr\avr\bin\../lib\ldscripts/avrxmega3.xn
+"C:\Program Files\Microchip\xc8\v2.40\bin"\\avr-objcopy -O ihex ".ca/dist/Config_1/production/attiny406_moniteur_V3.X.production.elf" ".ca/dist/Config_1/production/attiny406_moniteur_V3.X.production.hex"
+make[2]: Leaving directory 'C:/Users/e2068916/Desktop/attiny406_moniteur_V3.X'
+make[1]: Leaving directory 'C:/Users/e2068916/Desktop/attiny406_moniteur_V3.X'
+[32mBUILD SUCCESSFUL (total time: 1s)[0m
