@@ -5,6 +5,7 @@ paginate : false
 <!-- color : black -->
 <!-- backgroundColor : purple -->
 
+
 # CMaisonneuve---Projet-Final-2023 : Cible et moniteur de pointage  
 
 ## Participants
@@ -49,7 +50,9 @@ Le module du moniteur contient un microcontrôleur capable de traiter rapidement
 - Une démonstration fonctionnel du produit a été réalisé. Il intègre l’électronique et le programme embarqué.
 - Le système est capable de détecter les tirs sur les différents cibles (base, petites, grandes), d'envoyer les données et de réagir en fonction.
 
-*Ajouter une photo du produit réaliser ou de la carte électronique* **(obligatoire)**
+---
+
+![Produit](./Medias/Projet_Complet.jpg)
 
 ---
 
