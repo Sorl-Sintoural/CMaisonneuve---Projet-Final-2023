@@ -24,7 +24,7 @@ enlever toute possibilité d'erreur humaine et de triche.
 
 ---
 
-![Arbitre payé](./Medias/arbitre_payé.png)
+![Lancer](./Medias/Tir.png)
 
 ---
 
