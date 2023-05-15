@@ -181,10 +181,10 @@
                 <mxCell id="3KBwBZdhE7WF4Y3FgFT6-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3KBwBZdhE7WF4Y3FgFT6-1" target="3KBwBZdhE7WF4Y3FgFT6-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3KBwBZdhE7WF4Y3FgFT6-1" value="Lecture des trames du NRF" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="3KBwBZdhE7WF4Y3FgFT6-1" value="Réinitialisation et lecture des trames du NRF" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="480" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="SsjHVZGTH4pwEsUziO5u-1" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KBwBZdhE7WF4Y3FgFT6-3" target="qi72QTewOVqa7YclX3Wh-3">
+                <mxCell id="SsjHVZGTH4pwEsUziO5u-1" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3KBwBZdhE7WF4Y3FgFT6-3" target="qi72QTewOVqa7YclX3Wh-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3KBwBZdhE7WF4Y3FgFT6-3" value="Désactivation des&amp;nbsp; DELs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
